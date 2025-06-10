@@ -29,7 +29,7 @@
         .nav-bar-list li:first-child > a{color: white;
                                 font-weight: bold;}
 
-        .nav-bar-list a:hover{color:indigo}
+        .nav-bar-list a:hover{color:pink}
 
         .logo-gengar{padding: 6px 25px;}
 
@@ -214,4 +214,128 @@
                 .section-3-nft img{width: 300px;
                                     height:300px;
                                     border-radius: 10px;}
+
+                #section-products{display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                margin-top: 80px;
+                                gap: 30px;
+                                width: 80%;
+                                            }
+                #section-products h2{font-size: 32px;
+                                    font-weight: 800;}
+
+                .categoria-products{display: flex;
+                                    gap: 13px;
+                                    justify-content: center;
+                                    align-items: center;}
+
+                .categoria-products button{border-radius: 15px;
+                                        border: none;
+                                        background: #421482;
+                                        background: radial-gradient(circle,rgba(66, 20, 130, 1) 84%, rgba(87, 16, 77, 1) 100%);
+                                        cursor: pointer;
+                                        color: #fff;
+                                        padding: 10px;}
+            
+                .ropa-products{display: flex;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                            align-items: center;
+                            margin-top: 20px;
+                            gap: 20px;
+                            padding: 40px;
+                            }
+                            
+                            
+
+                .products{background-color: #272d37;
+                          display: flex;
+                        gap: 20px;
+                        flex-direction: column;
+                        padding: 20px;
+                        border-radius: 15px;}
+
+                .remera-trasher{width: 300px;
+                                height: 300px;}
+                
+                .logo-nd{width: 40px;
+                        border-radius: 30px;}
+                
+                .products-top{display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            margin-top: 10px;
+                            }
+                .products-medium{display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                margin-top: 10px;}
+            
+                .products-medium-info{display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        gap: 5px;
+                                    }
+                .products-bottom{display: flex;
+                                justify-content: space-between;
+                                align-items: center;}
+                    
+                .products-bottom-fire{display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        gap: 5px;}
+                .products-bottom button{border: none;
+                                        background-color: #1e50ff;
+                                        padding: 10px 35px;
+                                        color: white;
+                                        border-radius: 10px;
+                                        cursor: pointer;
+                                        }
+
+                .products-top p{font-size: 15px;
+                                font-weight: 400;
+                                color: #adb9c7;}
+
+                .products-medium-info p{font-size: 15px;
+                                font-weight: 400;
+                                color: #adb9c7;}
+                
+
+                .button-ver{background: none;
+                            border: solid 1px
+                            #64d3ff;
+                            border-radius: 15px;
+                            cursor: pointer;
+                            padding: 10px 35px;
+                            color: white; }
+
+                footer{ background-color: #02050e;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 40px;
+                        padding: 60px 0px;
+                        color: white;}
+
+                footer a{color: #adb9c7;
+                        font-weight: 400;
+                        font-size: 15px;}
+
+            .lista-footer{display: flex;
+                            gap:30px;
+                            justify-content: center;
+                            }
+
+            footer p{color: #adb9c7;
+                        font-size: 15px;
+                        font-weight: 400;}
+
+            footer span{font-weight:800;}
+
+                
+
+            
                                 
